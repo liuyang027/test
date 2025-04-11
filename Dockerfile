@@ -11,8 +11,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=production
 
-# 暴露5000端口
-EXPOSE 5000
-
 # 启动应用
 CMD ["python", "app.py"] 
